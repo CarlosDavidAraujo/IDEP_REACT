@@ -1,0 +1,37 @@
+:root {
+    --blue: #2F8AE5;
+    --yellow: #F9BA00;
+    --red: #EA4335;
+    --bright-gray: #E1E1E1;
+    --white: #FCFCFC;
+    --nav-height: 60px;
+    --home-container-mg-top: 50px;
+}
+
+/*css reset*/
+*,
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    list-style-type: none;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+    color: #000000;
+    text-decoration: none;
+}
